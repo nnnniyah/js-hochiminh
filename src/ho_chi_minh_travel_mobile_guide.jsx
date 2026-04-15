@@ -498,7 +498,7 @@ function SubTabs({ items, activeSubSection, dark = false }) {
 export default function HoChiMinhTravelMobileGuide() {
   const [activeSection, setActiveSection] = useState('basic');
   const [activeSubSection, setActiveSubSection] = useState('flight');
-  const [expandedItems, setExpandedItems] = useState({ 'day1-0': true });
+  const [expandedItems, setExpandedItems] = useState({});
 
   const spotMap = useMemo(() => Object.fromEntries(spots.map((s) => [s.id, s])), []);
   const foodMap = useMemo(() => Object.fromEntries(foods.map((f) => [f.id, f])), []);
