@@ -314,7 +314,7 @@ const usefulSites = [
     name: 'Google 翻譯',
     desc: '簡易翻譯',
     detail: '適合快速查單字、簡單句子，也能搭配相機翻譯。',
-    url: 'https://apps.apple.com/app/id414706506',
+    url: 'https://translate.google.com.tw/?hl=zh-TW&tab=TT&sl=en&tl=zh-TW&op=translate',
   },
   {
     name: 'ChatGPT（AI）',
